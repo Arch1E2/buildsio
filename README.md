@@ -1,25 +1,25 @@
-INSTALLING
+INSTALLING</br></br>
 
-Backend:
+Backend:</br>
   --- create environment</br>
   --- pull project from git</br>
-  --- install denpendecies from requirments.txt
-  --- create database
-  --- configurate local_settings.py using settings_local
-  --- make migrations and migrate
-  --- add to db valutes and rates using managment commands:
-        -- get_valutes
-      then
-        -- get_valute_rates
+  --- install denpendecies from requirments.txt</br>
+  --- create database</br>
+  --- configurate local_settings.py using settings_local</br>
+  --- make migrations and migrate</br>
+  --- add to db valutes and rates using managment commands:</br>
+        -- get_valutes</br>
+      then</br>
+        -- get_valute_rates</br></br>
         
-Frontend:
-  --- install packeges using YARN or NPM
+Frontend:</br>
+  --- install packeges using YARN or NPM</br></br>
   
  
-RUNNING
+RUNNING</br></br>
  
-Backend:
-  --- python manage.py runserver
+Backend:</br>
+  --- python manage.py runserver</br></br>
   
-Frontend:
-  --- npm run serve
+Frontend:</br>
+  --- npm run serve</br>
