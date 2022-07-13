@@ -69,7 +69,7 @@ def render_to_pdf(request):
 
     response = HttpResponse(
             content_type='text/csv',
-            headers={'Content-Disposition': 'attachment; filename="somefilename.pdf"'},
+            headers={'Content-Disposition': 'attachment; filename="rates.pdf"'},
         )
     response.write(result)
 
@@ -100,7 +100,7 @@ def render_to_csv(request):
 
     response = HttpResponse(
             content_type='text/csv',
-            headers={'Content-Disposition': 'attachment; filename="somefilename.csv"'},
+            headers={'Content-Disposition': 'attachment; filename="rates.csv"'},
         )
 
     writer = csv.writer(response)
@@ -137,13 +137,13 @@ def render_to_xlsx(request):
 
     response = HttpResponse(
             content_type='text/csv',
-            headers={'Content-Disposition': 'attachment; filename="somefilename.xlsx"'},
+            headers={'Content-Disposition': 'attachment; filename="rates.xlsx"'},
         )
 
     wb = openpyxl.Workbook()
     ws = wb.active
 
-    ws.append(['valute', 'valute_name', 'date', 'value', 'nominal'])
+    ws.append(['Код валюты', 'Валюта', 'Дата', 'Цена', 'Номинал'])
 
     for q in qs:
         ws.append([q['valute'], q['valute_name'], q['date'], q['value'], q['nominal']])
