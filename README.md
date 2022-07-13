@@ -1,8 +1,8 @@
 INSTALLING
 
 Backend:
-  --- create environment
-  --- pull project from git
+  --- create environment</br>
+  --- pull project from git</br>
   --- install denpendecies from requirments.txt
   --- create database
   --- configurate local_settings.py using settings_local
