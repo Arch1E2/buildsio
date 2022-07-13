@@ -8,9 +8,9 @@ Backend:</br>
   --- configurate local_settings.py using settings_local</br>
   --- make migrations and migrate</br>
   --- add to db valutes and rates using managment commands:</br>
-        -- get_valutes</br>
-      then</br>
-        -- get_valute_rates</br></br>
+        &emsp;&emsp;-- get_valutes</br>
+      &emsp;then</br>
+        &emsp;&emsp;-- get_valute_rates</br></br>
         
 Frontend:</br>
   --- install packeges using YARN or NPM</br></br>
