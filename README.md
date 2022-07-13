@@ -19,6 +19,7 @@ Frontend:</br>
 RUNNING</br></br>
  
 Backend:</br>
+  --- add management command for taken valute_rates to CronTab
   --- python manage.py runserver</br></br>
   
 Frontend:</br>
