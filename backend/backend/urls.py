@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from views import *
+from .views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('get_rates/', get_rates),
     path('get_valutes/', get_valutes),
+    path('render_to_pdf/', render_to_pdf),
+    path('render_to_csv/', render_to_csv),
+    path('render_to_xlsx/', render_to_xlsx),
 ]

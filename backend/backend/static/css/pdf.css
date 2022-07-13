@@ -1,0 +1,21 @@
+body {
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

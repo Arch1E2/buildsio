@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<body>
+    {{ static }}
+    {% block content %}
+    <h3>Котировки валют к USD</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Код валюты</th>
+                <th>Валюта</th>
+                <th>Дата</th>
+                <th>Цена</th>
+                <th>Номинал</th>
+            </tr>
+        </thead>
+        {%for rate in context%}
+        <tr>
+            <td>{{rate.valute}}</td>
+            <td>{{rate.valute_name}}</td>
+            <td>{{rate.date}}</td>
+            <td>{{rate.value}}</td>
+            <td>{{rate.nominal}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    {% endblock %}
+</body>
