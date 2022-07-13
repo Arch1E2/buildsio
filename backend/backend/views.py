@@ -107,7 +107,7 @@ def render_to_csv(request):
     writer.writerow(['valute', 'valute_name', 'date', 'value', 'nominal'])
 
     for q in qs:
-        writer.writerow([q['valute'], q['valute_name'], q['date'], q['value'], q['nominal']])
+        writer.writerow([q['Код валюты'], q['Валюта'], q['Дата'], q['Цена'], q['Номинал']])
 
     return response
 
