@@ -1,5 +1,6 @@
 <h2>USE DOCKER FOR START</h2>
 <p>docker-compose up</p>
+<p>in browser go to localhost:8080</p>
 <h2>OR</h1>
 
 
