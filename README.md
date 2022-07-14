@@ -13,7 +13,9 @@ Backend:</br>
         &emsp;&emsp;-- get_valute_rates</br></br>
         
 Frontend:</br>
-  --- install packeges using YARN or NPM</br></br>
+  --- install packeges using YARN or NPM</br>
+  If not started django on localhost:8000:</br>
+  --- configurate Axios.defaults.baseURL in front/src/main.js</br></br>
   
  
 RUNNING</br></br>
