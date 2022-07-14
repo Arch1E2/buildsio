@@ -21,7 +21,6 @@
               v-model="selected_valutes"
               filterable
               collapse-tags
-              collapse-tags-tooltip
             >
               <el-option
                 v-for="valute in valutes"

@@ -1,0 +1,1 @@
+0 12 * * * env/bin/python backend/manage.py get_valute_rates >/dev/null 2>&1

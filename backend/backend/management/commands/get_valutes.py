@@ -16,7 +16,7 @@ class Command(BaseCommand):
         valutes = self.get_valutes()
         created_valutes = 0
         for valute in valutes.keys():
-            Valute.objects.create(code=valute, name=valutes[valute]['description'])
+            Valute.objects.update_or_create(code=valute, name=valutes[valute]['description'])
             created_valutes += 1
 
         return f'Created valutes: {created_valutes}'

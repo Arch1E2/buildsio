@@ -16,7 +16,7 @@ class Command(BaseCommand):
         date = r['date']
 
         for rate in rates.keys():
-            Rate.objects.create(
+            Rate.objects.update_or_create(
                 valute=Valute.objects.get(code=rate),
                 date=date,
                 value=rates[rate],
