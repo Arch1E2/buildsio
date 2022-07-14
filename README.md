@@ -1,3 +1,7 @@
+<h1>USE DOCKER FOR START</h1></br>
+<h1>OR</h1>
+
+
 INSTALLING</br></br>
 
 Backend:</br>
