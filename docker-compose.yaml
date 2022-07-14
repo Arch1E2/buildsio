@@ -1,6 +1,6 @@
-networks:
-  app:
-    driver: bridge
+# networks:
+#   app:
+#     driver: bridge
 
 services:
   django:
@@ -19,8 +19,8 @@ services:
       - POSTGRES_DB=buildsio
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password
-    networks:
-      - app
+    # networks:
+    #   - app
 
   builds_db:
     image: postgres
@@ -32,8 +32,8 @@ services:
       - POSTGRES_DB=buildsio
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password
-    networks:
-      - app
+    # networks:
+    #   - app
 
   vue:
     container_name: vue
@@ -47,5 +47,5 @@ services:
       - 8080
     depends_on:
       - django
-    networks:
-      - app
+    # networks:
+    #   - app
