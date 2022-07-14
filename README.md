@@ -1,4 +1,5 @@
 <h2>USE DOCKER FOR START</h2>
+<p>docker-compose up</p>
 <h2>OR</h1>
 
 
