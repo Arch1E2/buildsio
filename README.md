@@ -1,5 +1,5 @@
-<h1>USE DOCKER FOR START</h1></br>
-<h1>OR</h1>
+<h2>USE DOCKER FOR START</h2>
+<h2>OR</h1>
 
 
 INSTALLING</br></br>
